@@ -1,0 +1,86 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+header, nav {
+    text-align: center;
+}
+
+main {
+    text-align: left;
+}
+
+footer {
+    text-align:center;
+    font-size: .75em;
+    color: green;
+}
+
+nav a, b {
+    padding:15px;
+    padding-bottom:4px;
+    font-size:  1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+nav b {
+    color:DodgerBlue;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+    color:white;
+}
+
+.hobby {
+    color: yellow;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    color:white;
+    background-color: #753900;
+}
+
+#me, #welcomeText #csumb {
+    float:left;
+}
+
+footer {
+    clear: left;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#googleForm {
+    text-align: center;
+  }
