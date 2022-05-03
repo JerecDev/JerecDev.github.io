@@ -50,8 +50,10 @@ td strong {
 
 ul {
     text-align: left;
-    padding-left: 200px;
     color:white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .hobby {
@@ -67,8 +69,19 @@ ul {
     background-color: #753900;
 }
 
-#me, #welcomeText #csumb {
-    float:left;
+#me {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 400px;
+    width: 27%;
+}
+
+#welcomeText {
+    display: inline-block;
+    width: 46%;
+    @media (max-width: 620px) {
+      width: 100%;
+    }
 }
 
 footer {
